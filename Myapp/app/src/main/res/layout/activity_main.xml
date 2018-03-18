@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.subhash.myapp.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+        android:layout_above="@+id/imageButton4"
+        android:layout_marginBottom="101dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="104dp"
+        android:layout_toEndOf="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/ambulance"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/water"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginBottom="104dp"
+        android:layout_marginStart="41dp"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton4"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/police"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_marginBottom="104dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="101dp"
+        android:layout_toEndOf="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/woman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_above="@+id/imageButton3"
+        android:layout_marginBottom="101dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="104dp"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:layout_toStartOf="@+id/imageButton5"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/fire"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
